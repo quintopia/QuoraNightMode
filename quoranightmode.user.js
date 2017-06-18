@@ -6,7 +6,7 @@
 // @author       David Rutter
 // @match        https://*.quora.com/*
 // @grant        GM_addStyle
-// @downloadURL  https://raw.githubusercontent.com/quintopia/QuoraNightMode/master/quoranightmode.user.js
+// @downloadURL  https://github.com/quintopia/QuoraNightMode/raw/master/quoranightmode.user.js
 // ==/UserScript==
 /*jshint multistr: true */
 (function() {
