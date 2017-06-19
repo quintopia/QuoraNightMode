@@ -102,6 +102,12 @@
                     .AboveFoldAd .content_white_button, .AdPreview .content_white_button, .upper_content .content_white_button {\
                     background: #111111;\
                     }\
+                    .threaded_comments {\
+                    background: #111111 !important;\
+                    }\
+                    .web_page .Editor.Comment {\
+                    background-color: #111111 !important;\
+                    }\
                     .EditableList .nav_item_selected a, .EditableList .StaticListItem>.selected {\
                     background: #333333;\
                     }\
