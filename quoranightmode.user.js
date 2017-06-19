@@ -99,6 +99,9 @@
                     .SiteHeader .NotifsHoverMenuContents .NotificationsClearButton {\
                     background: #111111 !important;\
                     }\
+                    .edit_multifeed_link_wrapper {\
+                    background: #111111 !important;\
+                    }\
                     .AboveFoldAd .content_white_button, .AdPreview .content_white_button, .upper_content .content_white_button {\
                     background: #111111;\
                     }\
