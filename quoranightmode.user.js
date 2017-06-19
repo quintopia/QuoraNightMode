@@ -108,6 +108,9 @@
                     .threaded_comments {\
                     background: #111111 !important;\
                     }\
+                    .more_button:hover {\
+                    background: #222222 !important;\
+                    }\
                     .web_page .Editor.Comment {\
                     background-color: #111111 !important;\
                     }\
