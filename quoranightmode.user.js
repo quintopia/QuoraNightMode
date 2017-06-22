@@ -43,7 +43,7 @@
                     .editor_toolbar {\
                     background-color:#111111 !important;\
                     }\
-                    *:not(.selected) > span {\
+                    *:not(.selected):not(.linenums) > span {\
                     color: #ffffff !important;\
                     }\
                     li {\
