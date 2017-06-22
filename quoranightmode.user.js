@@ -17,6 +17,9 @@
                     color:#ffffff !important;\
                     background-color:#111111 !important;\
                     }\
+                    html {\
+                    background: #111111 !important;\
+                    }\
                     a:not(.selected) {\
                     color:#ffffff !important;\
                     }\
