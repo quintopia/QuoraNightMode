@@ -73,6 +73,18 @@
                     .Carousel .left, .Carousel .right {\
                     background-color: #111111 !important;\
                     }\
+                    .RequestAnswersDrawer .inner {\
+                    background: #111111 !important;\
+                    }\
+                    .QuestionMain .right_col_fixable {\
+                    backgorund-color: #111111 !important;\
+                    }\
+                    .RelatedQuestions {\
+                    background-color: #111111 !important;\
+                    }\
+                    .question_related.list {\
+                    background: #111111 !important;\
+                    }\
                     .ActionBar .secondary_action {\
                     background:transparent !important;\
                     }\
