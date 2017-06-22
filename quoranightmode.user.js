@@ -134,6 +134,9 @@
                     .EditableList .nav_item_selected a, .EditableList .StaticListItem>.selected {\
                     background: #333333;\
                     }\
+                    .Editor .span.math  {\
+                    background-color: #111111 !important;\
+                    }\
                     .topic_pill {\
                     background-color:#333333 !important;\
                     }\
