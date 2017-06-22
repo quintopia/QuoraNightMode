@@ -70,6 +70,9 @@
                     .answer_editor.on_draft_page .AnswerEditorHeader, .answer_editor.on_draft_page .form_buttons {\
                     background:#111111;\
                     }\
+                    .Carousel {\
+                    background-color: #111111 !important;
+                    }\
                     .ActionBar .secondary_action {\
                     background:transparent !important;\
                     }\
