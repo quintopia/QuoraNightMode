@@ -2,11 +2,10 @@
 // @name         Quora Night Mode
 // @namespace    http://rutteric.com
 // @version      0.1
-// @description  change quora colors as night
+// @description  change quora colors at night
 // @author       David Rutter
 // @match        https://*.quora.com/*
 // @grant        GM_addStyle
-// @downloadURL  https://github.com/quintopia/QuoraNightMode/raw/master/quoranightmode.user.js
 // ==/UserScript==
 /*jshint multistr: true */
 (function() {
@@ -85,6 +84,9 @@
                     }\
                     .hover_menu .hover_menu_contents {\
                     background: #111111 !important;\
+                    }\
+                    .container {\
+                    background-color: #111111 !important;\
                     }\
                     .Notif {\
                     color: #ffffff !important;\
