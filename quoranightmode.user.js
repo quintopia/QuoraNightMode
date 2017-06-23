@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Night Mode
 // @namespace    http://rutteric.com
-// @version      0.9
+// @version      1.0
 // @description  change quora colors at night
 // @author       David Rutter
 // @match        https://*.quora.com/*
@@ -32,6 +32,12 @@
                     .SiteHeader {\
                     background-color:#111111 !important;\
                     }\
+                    .SentNotifBanner .notifs_banner .Notif.seen .notif_item .notif_title .notif_action_bar .action_item a {\
+                    background: #111111 !important;\
+                    }\
+                    .ContentPageFeed {\
+                    background: #111111 !important;\
+                    }\
                     div:not(.doc.empty) {\
                     color: #ffffff !important;\
                     background-color:#111111 !important;\
@@ -51,6 +57,9 @@
                     }\
                     .AddQuestionLookupBarButton {\
                     background-color:#111111 !important;\
+                    }\
+                    .InteractionModeBanner>div, .ErrorBanner>div, .BrowserWarning>div {\
+                    background: #111111 !important;\
                     }\
                     .save_draft {\
                     background:#111111 !important;\
