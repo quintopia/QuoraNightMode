@@ -45,7 +45,7 @@
                     background-color: #111111 !important;\
                     }\
                     .Bundle .more_button:hover, .HomeMultifeed div.PrefeedDigestBundle .more_button:hover, .Bundle .view_all_button:hover, .HomeMultifeed div.PrefeedDigestBundle .view_all_button:hover {\
-                    background: #111111 !important;\
+                    background: #222222 !important;\
                     }\
                     .SentNotifBanner .notifs_banner .Notif.seen .notif_item .notif_title .notif_action_bar .action_item a {\
                     background: #111111 !important;\
