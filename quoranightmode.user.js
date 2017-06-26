@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Night Mode
 // @namespace    http://rutteric.com
-// @version      1.0
+// @version      1.1
 // @description  change quora colors at night
 // @author       David Rutter
 // @match        https://*.quora.com/*
@@ -109,7 +109,7 @@
                     .Selector .SelectorResults .selector_result.selector_highlighted:not(.unselectable) {\
                     background-color: #222222 !important;\
                     color: #ffffff !important;\
-                    }
+                    }\
                     .QuestionMain .right_col_fixable {\
                     backgorund-color: #111111 !important;\
                     }\
