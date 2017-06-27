@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Night Mode
 // @namespace    http://rutteric.com
-// @version      1.9
+// @version      1.10
 // @description  change quora colors at night
 // @author       David Rutter
 // @match        https://*.quora.com/*
@@ -90,6 +90,9 @@
                     }\
                     .MessagesThreadItem:hover {\
                     background: #151515 !important;\
+                    }\
+                    .NewInboxThreadComposeMessageBox {\
+                    background: #222222 !important;\
                     }\
                     .AddQuestionLookupBarButton {\
                     background-color:#111111 !important;\
