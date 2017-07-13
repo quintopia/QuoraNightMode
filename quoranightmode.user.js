@@ -32,6 +32,9 @@
                     .SiteHeader {\
                     background-color:#111111 !important;\
                     }\
+                    body.feed_card_on {\
+                    background-color: #111111 !important;\
+                    }\
                     body.feed_card_on .AddQuestionPrompt {\
                     background-color: #111111 !important;\
                     }\
