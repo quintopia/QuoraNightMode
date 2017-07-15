@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Night Mode
 // @namespace    http://rutteric.com
-// @version      1.14
+// @version      1.15
 // @description  change quora colors at night
 // @author       David Rutter
 // @match        https://*.quora.com/*
@@ -64,6 +64,28 @@
                     }\
                     .Bundle .more_button:hover, .HomeMultifeed div.PrefeedDigestBundle .more_button:hover, .Bundle .view_all_button:hover, .HomeMultifeed div.PrefeedDigestBundle .view_all_button:hover {\
                     background: #222222 !important;\
+                    }\
+                    .StatsMain .stats_side .ContentListWrapper .AllContentLink.is_active {\
+                    background: #111111 !important;\
+                    color: #fff !important;\
+                    }\
+                    .StatsMain .stats_side .ContentListWrapper .ContentListItem:hover {\
+                    background: #222222 !important;\
+                    }\
+                    .StatsMain .stats_side .ContentListWrapper .ContentListItem {\
+                    background: #111111 !important;\
+                    }\
+                    .StatsMain .stats_side .ContentListWrapper {\
+                    background: #111111 !important;\
+                    }\
+                    .StatsMain .stats_side .ContentListWrapper .AllContentLink {\
+                    background: #222222 !important;\
+                    }\
+                    .StatsMain .stats_main .heads_up .heads_up_item.is_active {\
+                    background: #111111 !important;\
+                    }\
+                    .StatsMain .stats_main .heads_up .heads_up_item {\
+                    background: #111111 !important;\
                     }\
                     .Modal .modal_header, .Modal .modal_content, .Modal .modal_content .modal_body {\
                     background-color: #222222 !important;\
