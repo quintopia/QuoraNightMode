@@ -41,6 +41,9 @@
                     body.feed_card_on .WriteMultifeed .full_bundle {\
                     background-color: #111111 !important;\
                     }\
+                    body.feed_card_on .Bundle .singleton_bundle .feed_item{\
+                    background-color: #111111 !important;\
+                    }\
                     body.feed_card_on .PinnedTopicHeader{\
                     background-color: #111111 !important;\
                     }\
