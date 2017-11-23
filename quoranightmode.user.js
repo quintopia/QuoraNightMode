@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Night Mode
 // @namespace    http://rutteric.com
-// @version      1.21
+// @version      1.22
 // @description  change quora colors at night
 // @author       David Rutter
 // @match        https://*.quora.com/*
@@ -368,6 +368,19 @@
                     .LegalNavLinks {\
                     background-color:#222222 !important;\
                     color: #ffffff !important;\
+                    }\
+                    .AskerSatisfactionSurvey {\
+                    box-shadow: 2px 3px 2px #111 !important;\
+                    }\
+                    .AnswerSurvey {\
+                    background-color: #222 !important;\
+                    border: 1px solid #111 !important;\
+                    }\
+                    .AnswerSurvey .title_text {\
+                    color: #fff !important;\
+                    }\
+                    .AnswerSurvey .question_wrapper .button_group .survey_button {\
+                    background: #151515 !important;\
                     }\
                     ' );
     }
