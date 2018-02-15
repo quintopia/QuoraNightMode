@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Night Mode
 // @namespace    http://rutteric.com
-// @version      1.23
+// @version      1.24
 // @description  change quora colors at night
 // @author       David Rutter
 // @match        https://*.quora.com/*
