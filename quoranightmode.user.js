@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Quora Night Mode
 // @namespace    http://rutteric.com
-// @version      1.22
+// @version      1.23
 // @description  change quora colors at night
 // @author       David Rutter
 // @match        https://*.quora.com/*
@@ -381,6 +381,14 @@
                     }\
                     .AnswerSurvey .question_wrapper .button_group .survey_button {\
                     background: #151515 !important;\
+                    }\
+                    .Bundle .view_all_button_prominent:hover {\
+                    background: #222222 !important;\
+                    }\
+                    .HyperLinkPreview .hyperlink_description {\
+                    color: #999 !important;\
+                    .HyperLinkPreview .hyperlink_title {\
+                    color: #999 !important;\
                     }\
                     ' );
     }
