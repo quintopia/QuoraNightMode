@@ -390,6 +390,9 @@
                     .HyperLinkPreview .hyperlink_title {\
                     color: #999 !important;\
                     }\
+                    .upper_content .content_title {\
+                    color: #999 !important;\
+                    }\
                     ' );
     }
 })();
